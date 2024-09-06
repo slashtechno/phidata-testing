@@ -47,7 +47,7 @@ assistant = Assistant(
 )
 
 
-# assistant.knowledge_base.load(recreate=False)
-assistant.knowledge_base.load(recreate=True, upsert=True)
-# assistant.cli_app()
-assistant.print_response("Who was the clinical team leader", markdown=False)
+assistant.knowledge_base.load(recreate=False)
+# assistant.knowledge_base.load(recreate=True, upsert=True)
+assistant.cli_app()
+# assistant.print_response("Who was the clinical team leader", markdown=False)
